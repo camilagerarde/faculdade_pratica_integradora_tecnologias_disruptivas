@@ -13,9 +13,9 @@ function Header() {
         <AppBar position="static">
           <Toolbar>
             <IconButton
-              size="large"
+              size="small"
               edge="start"
-              color="inherit"
+              color="primary"
               aria-label="menu"
               sx={{ mr: 2 }}
             >
@@ -23,7 +23,7 @@ function Header() {
               <MenuIcon />
               */}
             </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
               Gerenciamento de Projetos
             </Typography>
           </Toolbar>
